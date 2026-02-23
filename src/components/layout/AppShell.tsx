@@ -2,6 +2,8 @@
 
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default function AppShell({ children }: { children: React.ReactNode }) {
     return (
@@ -13,7 +15,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
                 sx={{ flexGrow: 1, py: 3}}
             >
                 {children}
-            <Container/>
+            </Container>
             <Footer />
         </Box>
     );
