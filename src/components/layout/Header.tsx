@@ -17,7 +17,7 @@ export default function Header() {
                     E-commerce App
                 </Typography>
 
-                <Button color="inherit" component={Link} href="/products">
+                <Button color="inherit" component={Link} href="api/products">
                     Product
                 </Button>
                 <Button color="inherit" component={Link} href="/Login">
